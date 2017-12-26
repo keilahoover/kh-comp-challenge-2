@@ -1,0 +1,91 @@
+html {
+  font-size: 10px;
+  background-color: #EFEFEF;
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+  border: 0;
+}
+
+body {
+  font-family: "Nova Slim", sans-serif;
+  color: #FBFAF8;
+}
+
+header {
+  background-color: #AEB8C0;
+  height: 167px;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1.2rem;
+}
+
+.profile-icon {
+  width: 2.5%;
+  padding-right: 0.3rem;
+}
+
+.login-container p {
+  font-size: 1.4rem
+}
+
+.selector-arrow{
+  width: .8%;
+  padding: 0 2.4rem 0 0.8rem;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 3.3rem;
+}
+
+.ufp-logo {
+  width: 7%;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  font-size: 1.86rem;
+}
+
+.entry-icon,
+.files-icon,
+.p-log-icon {
+  width: 15%;
+  height: 3.5rem;
+  padding-right: 1.5rem;
+}
+
+main {
+  background-color: #EFEFEF;
+}
+
+.circle {
+  width: 4%;
+  height: 56px;
+  border-radius: 50px;
+}
+
+.bg-red {
+  background: #A71313;
+}
