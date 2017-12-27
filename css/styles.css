@@ -13,6 +13,7 @@ body {
   font-family: "Nova Slim", sans-serif;
   color: #FBFAF8;
 }
+/*Header section*/
 
 header {
   background-color: #AEB8C0;
@@ -24,15 +25,13 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding-top: 1.2rem;
+  font-size: 1.4rem;
+  color: #FBFAF8;
 }
 
 .profile-icon {
   width: 2.5%;
   padding-right: 0.3rem;
-}
-
-.login-container p {
-  font-size: 1.4rem
 }
 
 .selector-arrow{
@@ -76,16 +75,69 @@ h1 {
   padding-right: 1.5rem;
 }
 
+/*Entry Cards*/
 main {
+  color: black;
+}
+
+.card {
+  background-color: #FBFAF8;
+  width: 18%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 1rem 1rem 1rem;
+  box-shadow: 2px 0 4px #a6a6a6
+}
+
+.top-line {
+  background-image: url("../img/captain_picard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #FBFAF8;
+  display: flex;
+  justify-content: space-between;
+  height: 33vh;
+}
+
+.lg-num {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+.views-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tng-badge {
+  width: 17%;
+  fill: white !important;
+}
+
+.bottom-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 57vh;
+  margin: 0 1.4rem 0 1.4rem;
+}
+
+a {
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #8B8B8B;
   background-color: #EFEFEF;
+  line-height: 1.5rem;
+  padding: .5rem 1.5rem .5rem .5rem;
 }
 
-.circle {
-  width: 4%;
-  height: 56px;
-  border-radius: 50px;
-}
 
-.bg-red {
-  background: #A71313;
-}
+
+
+
+
+
