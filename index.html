@@ -9,33 +9,33 @@
 
 <body>
   <header role="header">
-    <section>
       <div class="login-container">
         <i class="fa fa-user-circle-o" aria-hidden="true"></i>
         <p>Crew Login</p>
-        <img class="selector-arrow"  aria-hidden="true" src="img/down_arrow.svg">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
       </div>
       <div class="main-header">
-        <h1>USS-ENTERPRISE</h1>
-        <img class="ufp-logo" alt="united-federation-of-planets" src="img/UFP_logo.png">
+        <h1>USS-ENTERPRISE-D</h1>
+        <img class="ship-icon" src="img/enterprise.svg" aria-hidden="true">
       </div>
       <div role="nav-bar" class="nav-bar">
-        <ul>
-          <li><img class="entry-icon" src="img/plus_sign.svg" alt="add-entry-log">Entry</li>
-          <li><img class="files-icon" src="img/database.svg" alt="file-database">Files</li>
-          <li><img class="p-log-icon" src="img/artificial-intelligence.svg" alt="personal-log">Personal Log</li>
-        </ul>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <p>ENTRY</p>
+          <i class="fa fa-database" aria-hidden="true"></i>
+          <p>FILES</p>
+          <i class="fa fa-book" aria-hidden="true"></i>
+          <p>PERSONAL LOG</p>
       </div>
-    </section>
   </header>
 
   <main role="main">
-    <h2>Entries</h2>
-    <section class="entry-section">
+    <div class="h2-style">
+      <h2>Entries</h2>
+    </div>
     <!-- first card -->
-    <article class="card card-1">
-      <div class="top-line">
-        <img class="tng-badge" src="img/TNG_badge.svg" aria-hidden="true">
+    <article class="card">
+      <div class="top-line" id="card-1">
+        <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
         <div class="views-div">
           <h4>VIEWS</h4>
           <p class="lg-num">02</p>
@@ -51,7 +51,139 @@
           <p class="lg-num">04</p>
       </div>
     </article>
-
+    <!-- second card -->
+     <article class="card">
+      <div class="top-line" id="card-2">
+        <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">William Riker</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Commander</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- third card -->
+     <article class="card">
+      <div class="top-line" id="card-3">
+        <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Beverly Crusher</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Commandor/Doctor</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- fourth card -->
+     <article class="card">
+      <div class="top-line" id="card-4">
+       <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Data</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Lt. Commander</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- fifth card -->
+     <article class="card">
+      <div class="top-line" id="card-5">
+       <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Deanna Troi</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Lt. Commander/Counselor</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- sixth card -->
+     <article class="card">
+      <div class="top-line" id="card-6">
+      <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Geordi La Forge</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Lieutenant</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- seventh card -->
+     <article class="card">
+      <div class="top-line" id="card-7">
+       <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Worf</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Lieutenant</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
+    <!-- eighth card -->
+     <article class="card">
+      <div class="top-line" id="card-8">
+      <i class="fa fa-hand-spock-o fa-4x" aria-hidden="true"></i>
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Wesley Crusher</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Ensign</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+      </article>
   </main>
 </body>
 </html>
