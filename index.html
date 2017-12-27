@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Make it So.</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Nova+Slim" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.0.2/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header role="header">
     <section>
       <div class="login-container">
-        <img class="profile-icon" src="img/profile.svg">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
         <p>Crew Login</p>
-        <img class="selector-arrow" src="img/down_arrow.svg" alt="login-selector-button">
+        <img class="selector-arrow"  aria-hidden="true" src="img/down_arrow.svg">
       </div>
       <div class="main-header">
         <h1>USS-ENTERPRISE</h1>
@@ -31,11 +31,26 @@
 
   <main role="main">
     <h2>Entries</h2>
-    <section class="entry-cards">
+    <section class="entry-section">
     <!-- first card -->
-    <article>
+    <article class="card card-1">
       <div class="top-line">
-        <i class="fa fa-circle bg-red"
+        <img class="tng-badge" src="img/TNG_badge.svg" aria-hidden="true">
+        <div class="views-div">
+          <h4>VIEWS</h4>
+          <p class="lg-num">02</p>
+        </div>
+      </div>
+      <div class="bottom-line">
+          <h3 class="crew-name">Jean-Luc Picard</h3>
+          <h4 class="submit-date">Stardate: 94607.8</h4>
+          <a class="card-url" title="attachment-link" href="#">http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis</a>
+          <h4 class="rank-title-header">RANK</h4>
+          <h3 class="rank-title">Captain</h3>
+          <h4 class="attch">ATTACHMENTS</h4>
+          <p class="lg-num">04</p>
+      </div>
+    </article>
 
   </main>
 </body>
