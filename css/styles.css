@@ -27,8 +27,13 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding-top: 1.2rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #FBFAF8;
+}
+
+.crew-login,
+.fa-caret-down {
+  color: #2B53A7;
 }
 
 .fa {
@@ -57,7 +62,19 @@ h1 {
   list-style-type: none;
   font-size: 1.86rem;
   padding-right: 1.5rem;
+}
 
+.nav-bar p {
+  color: #8B8B8B;
+}
+
+#entry-txt-style {
+  color: #FFFFFF;
+}
+
+.fa-database,
+.fa-book {
+  color: #2B53A7;
 }
 
 /*Entry Cards*/
@@ -99,10 +116,6 @@ main {
   margin: 1rem 0 0 1.5rem;
 }
 
-.lg-num {
-  font-size: 2rem;
-}
-
 h4 {
   font-size: 0.8rem;
 }
@@ -111,6 +124,10 @@ h4 {
   display: flex;
   flex-direction: column;
   margin: 1rem 1.5rem 0 0;
+}
+
+.lg-num-1 {
+  font-size: 2rem;
 }
 
 .bottom-line {
@@ -149,6 +166,11 @@ a {
 
 .attch {
   margin-bottom: .5rem;
+}
+
+.lg-num-2 {
+  font-size: 2rem;
+  color: #D6A444;
 }
 
 /*Photos*/
