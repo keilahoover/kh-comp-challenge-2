@@ -74,7 +74,7 @@ h1 {
 
 .nav-bar p {
   color: #8B8B8B;
-  padding-right: 1rem;
+  padding-right: 4rem;
 }
 
 #entry-txt-style {
@@ -222,28 +222,77 @@ a {
 
 /*Media Queries*/
 
-/*@media screen and (max-width: 1579px) {
+@media screen and (max-width: 825px) {
 
   header {
-    width: 161rem;
+    width: 100%;
   }
-}*/
 
-@media screen and (max-width: 733px) {
+  h1 {
+    font-size: 3rem;
+  }
 
-  header {
-    width: 100rem;
+  .nav-bar {
+    padding: 1.2rem 0 0 2.5rem;
   }
 
   .card {
-    width: 36%;
+    max-width: 37%;
   }
 }
 
-@media screen and (max-width: 333px) {
- .card {
-  width: 50%;
- }
+@media screen and (max-width: 689px) {
+  .header-nav-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-header {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .nav-bar {
+    padding: 1.2rem 2rem 0 0rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 515px) {
+    .card {
+      max-width: 68%;
+    }
+  }
+
+  @media screen and (max-width: 334px) {
+  .crew-login,
+  .fa-caret-down {
+    font-size: 1.8rem;
+  }
+
+  .login-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: .8rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-header {
+    padding-right: 1.5rem;
+  }
+
+  .nav-bar {
+    padding: 1.2rem 1rem 0 1rem;
+  }
 }
 
 
